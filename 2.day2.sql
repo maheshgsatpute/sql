@@ -2,7 +2,7 @@
 
 -- create database
 
-create database demo730Apr ;
+create database demo730Apr;
 show databases;
 
 use demo730Apr;     -- to go into database
@@ -17,10 +17,10 @@ phoneno int
 );
 
 show tables;
-describe students;
+describe student;
 desc student;
 
-create table employee(name varchar(20), location varchar(10));
+create table demo730Apr.employee(name varchar(20), location varchar(10));
 
 -- show tables;
 
